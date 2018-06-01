@@ -1,0 +1,8 @@
+{
+  "name": "up-python",
+  "profile": "shai",
+  "runtime": "python3.6",
+  "timeout": 5,
+  "regions": ["eu-west-2"],
+  "proxy": { "command": "FLASK_APP=app.py python3 -m flask run -p $PORT" }
+}
